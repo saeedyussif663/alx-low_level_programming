@@ -14,10 +14,10 @@ for (int j = 0; j <= 10; j++)
 {
   for (i = 'a'; i <= 'z'; i++)
   {
-    printf("%c", i);
+    _putchar(i);
   }
 
-  printf("\n");
+  _putchar('\n');
 }
 
 }
