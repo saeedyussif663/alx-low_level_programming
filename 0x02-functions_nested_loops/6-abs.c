@@ -12,6 +12,6 @@ return (-a);
 else if (a >= 0)
 {
 return (a);
-}	
-return 0;
+}
+return (0);
 }
