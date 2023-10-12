@@ -1,16 +1,15 @@
-#include "main.h"
+#include "stdio.h"
 
 /**
- * mul - multiplies the value of two integers
- * @a: first argumnet
- * @b: second argumnet
- * Return: 0 always (success)
- */
+  *mul - multiples two integers
+  *@a: First arguement
+  *@b: second arguement
+  *Return: a
+  */
 
 int mul(int a, int b)
 {
 
-a = a *b;
-return (0);
-
+	a = a * b;
+	return (a);
 }
