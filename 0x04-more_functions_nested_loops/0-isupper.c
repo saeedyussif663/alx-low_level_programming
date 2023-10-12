@@ -1,4 +1,5 @@
 #include "main.h"
+#include <ctype.h>
 
 /**
  *_isupeer - checks if a given letter is upprcase or not
