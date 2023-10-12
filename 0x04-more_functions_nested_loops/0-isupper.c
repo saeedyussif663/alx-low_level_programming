@@ -7,6 +7,9 @@
 
 int _isupper(int c)
 {
+char c;
+
+c =_putchar('c');
 
 if ((isupper c))
 {
