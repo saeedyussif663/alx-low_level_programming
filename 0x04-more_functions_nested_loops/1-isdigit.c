@@ -1,17 +1,15 @@
 #include "main.h"
 
 /**
-  * _isdigit - checks if a given input is a digit or not
-  *@c: function arguement
-  * Return: An integer value
+  *  _isdigit - checks for an integer b/n 0-9
+  * @c: Function arguement
+  * Return: Integer value
   */
 
 int _isdigit(int c)
 {
-
-if (isdigit(c))
-return 1;
+if (c >= '0' && c <= '9')
+return (1);
 else
-return 0;
-
+return (0);
 }
