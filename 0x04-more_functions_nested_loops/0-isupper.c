@@ -1,27 +1,15 @@
 #include "main.h"
-#include <ctype.h>
 
 /**
- *_isupeer - checks if a given letter is upprcase or not
- *Return: 1 (uppercase), otherwise 0
- */
+  * _isupper- checks for the case of a character
+  *@c: function arguement
+  * Return: An integer value
+  */
 
 int _isupper(int c)
 {
-char c;
-
-c =_putchar('c');
-
-if ((isupper c))
-{
-
+if (c >= 'A' && c <= 'Z')
 return (1);
-}
-
 else
-{
-
 return (0);
-}
-
 }
