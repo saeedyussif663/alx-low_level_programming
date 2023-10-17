@@ -2,7 +2,7 @@
 
 /**
  * puts2 - prints every other function
- * @s: pointer to string
+ * @str: pointer to string
  * Return: void
  */
 
@@ -14,4 +14,5 @@ while (str[i] != '\0')
 _putchar(str[i]);
 i += 2;
 }
+_putchar('\n');
 }
