@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * void print_array - print elements in array
+ * print_array - print elements in array
  * @a: array
  * @n: num of elements
  * Return: void
