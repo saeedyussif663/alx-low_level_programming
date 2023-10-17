@@ -3,6 +3,8 @@
 
 /**
  * _strcpy - copies string
+ *@dest: resultant of copy
+ *@src: item to be copied
  * Return: char;
  */
 
