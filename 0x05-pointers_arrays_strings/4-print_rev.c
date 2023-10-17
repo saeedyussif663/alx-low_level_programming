@@ -8,7 +8,9 @@
 
 void print_rev(char *s)
 {
-int lastIndex,i;
+int i;
+int lastIndex = 0;
+
 for (i = 0; s[i] != '\0'; i++)
 lastIndex++;
 
