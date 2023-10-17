@@ -10,6 +10,7 @@ void print_rev(char *s)
 {
 int i;
 int indexlast = 0;
+int j = 0;
 
 for (i = 0; s[i] != '\0'; i++)
 {
@@ -17,7 +18,6 @@ indexlast++;
 }
 for (i = indexlast - 1; i >= 0; i--)
 {
-_putchar(s[i]);
+*s[j] = s[i];
 }
-_putchar('\n');
 }
