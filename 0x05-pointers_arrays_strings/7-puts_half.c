@@ -1,8 +1,8 @@
 #include "main.h"
 
-/** 
+/**
  * puts_half - prints half of a string,followed by a new lin
- * @s: parameter
+ * @str: parameter
  * Return: void
  */
 
