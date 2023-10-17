@@ -17,7 +17,7 @@ for (i = 0; str[i] != '\0'; i++)
 count++;
 }
 n = count / 2;
-if(n % 2 == 0)
+if (n % 2 == 0)
 {
 n += 1;
 }
