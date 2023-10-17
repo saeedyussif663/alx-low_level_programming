@@ -1,6 +1,7 @@
 #include "main.h"
 
-/** puts_half - prints half of a string,followed by a new lin
+/** 
+ * puts_half - prints half of a string,followed by a new lin
  * @s: parameter
  * Return: void
  */
@@ -18,9 +19,8 @@ len++;
 
 half = len / 2;
 
-for (i = half; i <= len; i++)
+for (i = half + 1; str[i] != '\0' ; i++)
 {
 _putchar(str[i]);
 }
-
 }
