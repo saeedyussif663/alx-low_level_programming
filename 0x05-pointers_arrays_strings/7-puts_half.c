@@ -12,11 +12,15 @@ int i;
 int n;
 int count = 0;
 
-for (i = 0; str[i] !='\0'; i++)
+for (i = 0; str[i] != '\0'; i++)
 {
 count++;
 }
 n = (count) / 2;
+if(n % 2 == 0)
+{
+n += 1;
+}
 for (i = n; str[i] != '\0'; i++)
 {
 _putchar(str[i]);
