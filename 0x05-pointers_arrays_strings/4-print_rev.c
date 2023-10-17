@@ -10,14 +10,16 @@ void print_rev(char *s)
 {
 int i;
 int indexlast = 0;
-int j = 0;
+char j;
 
 for (i = 0; s[i] != '\0'; i++)
 {
 indexlast++;
 }
-for (i = indexlast - 1; i >= 0; i--)
+for (i = 0; indexlast / 2; i++)
 {
-s[j] = s[i];
+j = s[i];
+s[i] = s[indexlast - 1 -i];
+s[indexlast - 1 -i] = j;
 }
 }
