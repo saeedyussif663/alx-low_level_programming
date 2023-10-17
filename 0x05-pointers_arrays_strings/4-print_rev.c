@@ -16,10 +16,9 @@ for (i = 0; s[i] != '\0'; i++)
 {
 indexlast++;
 }
-for (i = 0; indexlast / 2; i++)
+for (i = indexlast - 1; i >= 0; i--)
 {
-j = s[i];
-s[i] = s[indexlast - 1 -i];
-s[indexlast - 1 -i] = j;
+_putchar(s[i]);
 }
+_putchar('\n');
 }
