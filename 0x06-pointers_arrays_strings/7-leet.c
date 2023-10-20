@@ -15,7 +15,8 @@ char s2[] = "4433007711";
 
 while (str[i] != '\0')
 {
-while (j < 10) {
+while (j < 10)
+{
 if (str[i] == s1[j])
 {
 str[i] = s2[j];
