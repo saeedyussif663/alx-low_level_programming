@@ -17,5 +17,5 @@ while (i <= n)
 i++;
 }
 
-return (dest);
+return (*dest);
 }
