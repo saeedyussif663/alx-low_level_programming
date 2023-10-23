@@ -16,6 +16,5 @@ if (*s == c)
 return (s);
 }
 }
-
 return (s);
 }
