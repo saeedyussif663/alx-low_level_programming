@@ -9,12 +9,15 @@
 
 char *_strchr(char *s, char c)
 {
-for (; *s; s++)
+while (*s)
 {
+s++;
+
 if (*s == c)
 {
 return (s);
 }
 }
-return (s);
+
+return (0);
 }
