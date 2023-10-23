@@ -9,20 +9,15 @@
 
 char *_strchr(char *s, char c)
 {
-int i;
-char *p;
-for (i = 0; s[i] != '\0'; i++)
+char *_strchr(char *s, char c)
 {
-if (s[i] == c)
-{
-p = &s[i];
-break;
+for (; *s; s++) {
+if (*s == c) {
+return (s);
 }
-else
-{
-p  = NULL;
 }
 
+return (s);
 }
-return (p);
+
 }
