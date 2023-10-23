@@ -9,13 +9,19 @@
 
 char *_strchr(char *s, char c)
 {
-for (; *s; s+)
+while (*s)
 {
-if (*(s) == c)
+s++;
+
+if (*s == c)
 {
 return (s);
 }
+else
+{
 
 }
-return (s);
+}
+
+return (0);
 }
