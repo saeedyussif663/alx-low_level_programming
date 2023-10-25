@@ -1,11 +1,12 @@
 #include "main.h"
+int square(int i, int j);
 
 /**
  * _sqrt_recursion - prints sqaure
  * @n: parameter
  * Return: square
  */
-int square(int i, int j);
+
 
 int _sqrt_recursion(int n)
 {
@@ -13,7 +14,7 @@ return (square(n, 1));
 }
 
 /**
- * squar - prints the square
+ * square - prints the square
  * @i: parameter
  * @j: parameter
  * Return: square
