@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/**
+ * main - printsthenewof the function
+ * @argc: parameter
+ * @argv[]: parameter
+ */
+
 int main(int argc, char *argv[])
 {
 if (argc > 0)
