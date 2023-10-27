@@ -3,7 +3,8 @@
 /**
  * main - printsthenewof the function
  * @argc: parameter
- * @argv[]: parameter
+ * @argv: parameter
+ * Return: 0
  */
 
 int main(int argc, char *argv[])
