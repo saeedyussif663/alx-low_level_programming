@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - prints the number of arguments
- * @argc: parmater
- * @argv: paramter
- * Return: argc
+ * main - printst the length of the arguments
+ * @argc: parameter
+ * @argv: parameter
+ * Return: 0
  */
 
 int main (int argc, char *argv[])
