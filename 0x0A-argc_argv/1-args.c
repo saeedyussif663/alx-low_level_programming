@@ -2,11 +2,11 @@
 #include "main.h"
 
 /**
- * main - printst the length of the arguments
- * @argc: parameter
- * @argv: parameter
- * Return: 0
- */
+  * main - Prints the number of args followed by a new line
+  * @argc: argument
+  * @argv: argument
+  * Return: Always zero
+  */
 
 int main (int argc, char *argv[])
 {
