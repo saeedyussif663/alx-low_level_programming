@@ -11,13 +11,14 @@
 
 int main(int argc, char *argv[])
 {
-int i = 0, j = 0; results = 0;
+int i = 0, j = 0;
+int results;
 
 if (argc == 3)
 {
 i = atoi(argv[1]);
 j = atoi(argv[2]);
-results = i * j;
+results = i *j;
 printf("%d\n", results);
 }
 else
