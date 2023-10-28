@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * main - print the result of the multiplication, followed by a new line
+ * main - print the result of the multiplication
  * @argc: parameter
  * @argv: parameter
  * Return: 0;
