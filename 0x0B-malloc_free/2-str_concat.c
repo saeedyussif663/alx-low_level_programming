@@ -29,7 +29,7 @@ str2_len++;
 ar = malloc(sizeof(char) * (str1_len + str2_len + 1));
 
 if (ar == NULL)
-return NULL;
+return (NULL);
 
 for (i = 0; i < str1_len; i++)
 ar[i] = s1[i];
@@ -41,6 +41,6 @@ ar[i++] = s2[j];
 
 ar[i] = '\0';
 
-return ar;
+return (ar);
 
 }
