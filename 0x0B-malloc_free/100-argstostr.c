@@ -8,7 +8,7 @@
  */
 
 
-int **alloc_grid(int width, int height)
+char *argstostr(int ac, char **av);
 {
 int i, j, f;
 int **alloc_mem;
