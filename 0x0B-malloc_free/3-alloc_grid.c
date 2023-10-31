@@ -1,7 +1,12 @@
 #include "main.h"
 #include <stdlib.h>
 
-
+/**
+ * alloc_grid -  pointer to a 2 dimensional array of integers
+ * @width: parameter
+ * @height: parameter
+ * Return: concatenated string
+ */
 
 int **alloc_grid(int width, int height)
 {
