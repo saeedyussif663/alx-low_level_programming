@@ -8,7 +8,7 @@
  */
 
 
-char *argstostr(int ac, char **av);
+char *argstostr(int ac, char **av)
 {
 int i, j, f;
 int **alloc_mem;
