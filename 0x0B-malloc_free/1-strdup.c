@@ -18,7 +18,7 @@ for (i = 0; str[i] != '\0'; i++)
 {
 len++;
 }
-ar = malloc(sizeof(char) * 6);
+ar = malloc(sizeof(char) * len);
 for (i = 0; i < len; i++)
 {
 ar[i] = str[i];
