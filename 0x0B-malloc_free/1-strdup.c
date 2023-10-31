@@ -14,11 +14,11 @@ unsigned int i;
 unsigned int len = 0;
 if (str == NULL)
 return (NULL);
-for (i = 1; str[i] != '\0'; i++)
+for (i = 0; str[i] != '\0'; i++)
 {
 len++;
 }
-ar = malloc(sizeof(char) * len);
+ar = malloc(sizeof(char) * len + 1)
 for (i = 0; i < len; i++)
 {
 ar[i] = str[i];
