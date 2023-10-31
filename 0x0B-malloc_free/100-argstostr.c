@@ -7,41 +7,38 @@
  * Return: the argument
  */
 
-
 char *argstostr(int ac, char **av)
 {
-int i, j, f;
-int **alloc_mem;
-if (width <= 0 || height <= 0)
-return ('\0');
-alloc_mem = malloc(sizeof(int *) * height);
-if (alloc_mem == NULL)
+char *str;
+int count = 0, a = 0, b = 0, c = 0;
+
+if (ac == 0 || av == NULL)
+return (NULL);
+while (a < ac)
 {
-free(alloc_mem);
-return ('\0');
-}
-i = 0;
-while (i < height)
+b = 0;
+while (av[a][b] != '\0')
 {
-alloc_mem[i] = malloc(sizeof(int) * width);
-if (alloc_mem[i] == NULL)
+count++;
+b++;
+}
+a++;
+}
+count = count + ac + 1;
+str = malloc(sizeof(char) * count);
+if (str == NULL)
 {
-f = i;
-while (f >= 0)
+return (NULL);
+}
+for (a = 0; a < ac; a++)
 {
-free(alloc_mem[f]);
-f--;
-}
-free(alloc_mem);
-return ('\0');
-}
-j = 0;
-while (j < width)
+for (b = 0; av[a][b] != '\0'; b++)
 {
-alloc_mem[i][j] = 0;
-j++;
+str[c] = av[a][b];
+c++;
 }
-i++;
+str[c] = '\n';
+c++;
 }
-return (alloc_mem);
+return (str);
 }
