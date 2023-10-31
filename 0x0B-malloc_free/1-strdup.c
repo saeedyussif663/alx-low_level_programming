@@ -9,11 +9,11 @@
 
 char *_strdup(char *str)
 {
-if (str == NULL)
-return (NULL);
 char *ar;
 unsigned int i;
 unsigned int len = 0;
+if (str == NULL)
+return (NULL);
 for (i = 0; str[i] != '\0'; i++)
 {
 len++;
