@@ -23,6 +23,6 @@ for (i = 0; i < len; i++)
 {
 ar[i] = str[i];
 }
-
+ar[len] = '\0';
 return (ar);
 }
