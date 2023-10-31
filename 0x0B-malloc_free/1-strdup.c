@@ -18,6 +18,7 @@ for (i = 0; str[i] != '\0'; i++)
 {
 len++;
 }
+len++;
 ar = malloc(sizeof(char) * len);
 for (i = 0; i < len; i++)
 {
