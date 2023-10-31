@@ -3,7 +3,7 @@
 
 /**
  * free_grid - frees a 2 dimensional grid
- *@gred: parameter
+ *@grid: parameter
  *@height: parameter
  */
 
