@@ -15,6 +15,12 @@ char *ar;
 int str1_len = 0;
 int str2_len = 0;
 
+if (s1 == NULL)
+s1 = "";
+
+if (s2 == NULL)
+s2 = "";
+
 for (i = 0; s1[i] != '\0'; i++)
 str1_len++;
 for (i = 0; s2[i] != '\0'; i++)
