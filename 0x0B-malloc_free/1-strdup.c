@@ -20,6 +20,8 @@ len++;
 }
 len++;
 ar = malloc(sizeof(char) * len);
+if (ar == NULL)
+return (NULL);
 for (i = 0; i < len; i++)
 {
 ar[i] = str[i];
