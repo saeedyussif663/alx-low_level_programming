@@ -6,14 +6,13 @@
  * @b: parameter
  * Return: a pointer to the allocated memory
  */
-void *malloc_checked(unsigned int a)
+void *malloc_checked(unsigned int b)
 {
-void *ptr;
+void *i;
 
-ptr = malloc(a);
-
-if (ptr == NULL)
+i = malloc(b);
+if (i == NULL)
 exit(98);
 
-return (ptr);
+return (i);
 }
