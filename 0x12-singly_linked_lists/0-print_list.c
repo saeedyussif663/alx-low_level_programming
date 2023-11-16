@@ -4,7 +4,7 @@
 /**
  * print_list -  elements of a linked list
  * @h: parameter
- * Return:  nodes printed
+ * Return: nodes printed
  */
 size_t print_list(const list_t *h)
 {
